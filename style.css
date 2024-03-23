@@ -42,24 +42,6 @@ form {
   top: -35px;
 }
 
-footer {
-  border-top: 1px solid #f9f7fe;
-  text-align: center;
-  padding-top: 15px;
-  color: rgba(39, 33, 66, 0.4);
-}
-
-footer p {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  font-style: normal;
-  color: rgba(39, 33, 66, 0.4);
-  line-height: 24px;
-  width: 75%;
-  border-radius: 6px;
-}
-
 .search-button {
   margin-left: 5px;
   font-size: 16px;
@@ -137,4 +119,21 @@ h1 {
 .current-temperature-value {
   font-size: 90px;
   font-weight: bold;
+}
+footer {
+  border-top: 1px solid #f9f7fe;
+  text-align: center;
+  padding-top: 15px;
+  color: rgba(39, 33, 66, 0.4);
+}
+
+footer p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
+  color: rgba(39, 33, 66, 0.4);
+  line-height: 24px;
+  width: 75%;
+  border-radius: 6px;
 }
