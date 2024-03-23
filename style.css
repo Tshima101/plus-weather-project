@@ -1,19 +1,19 @@
 body {
-  background: #146de0;
+  background: #c2ecf9;
   font-family: "Roboto", sans-serif;
 }
 
 a {
-  color: #885df1;
+  color: #1390ef;
 }
 
 .weather-app {
-  background: white;
+  background: rgb(239, 247, 250);
   max-width: 600px;
   margin: 60px auto;
   padding: 30px;
   border-radius: 10px;
-  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  box-shadow: 0 30px 50px rgba(70, 52, 110, 0.08);
 }
 
 header {
@@ -29,11 +29,33 @@ form {
 }
 
 .search-input {
-  background-color: #f9f7fe;
+  background-color: #c2ecf9;
   border: none;
-  color: rgba(39, 33, 66, 0.4);
+  color: #474f51;
   font-size: 16px;
   padding: 20px;
+}
+
+.current-temperature-unit {
+  font-size: 30px;
+  display: block;
+  top: -35px;
+}
+
+footer {
+  border-top: 1px solid #f9f7fe;
+  text-align: center;
+  padding-top: 15px;
+  color: rgba(39, 33, 66, 0.4);
+}
+
+footer p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
+  color: rgba(39, 33, 66, 0.4);
+  line-height: 24px;
   width: 75%;
   border-radius: 6px;
 }
@@ -41,7 +63,7 @@ form {
 .search-button {
   margin-left: 5px;
   font-size: 16px;
-  background-color: #885df1;
+  background-color: #15719f;
   color: white;
   border: none;
   padding: 20px;
@@ -86,49 +108,33 @@ h1 {
   color: rgba(39, 33, 66, 0.4);
   display: block;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 24px;
 }
 
 .current-details strong {
-  color: #f65282;
+  color: #15719f;
+}
+
+.weather-app-temperature-container {
+  display: flex;
 }
 
 .current-temperature {
-  font-size: 48px;
-  display: block;
+  font-size: 88px;
+  display: flex;
+  font-weight: bold;
+  line-height: 80px;
 }
 
 .current-temperature-icon {
   position: relative;
   top: -8px;
   font-size: 40px;
-  margin-right: 10px;
+  margin-right: 12px;
 }
 
 .current-temperature-value {
-  font-size: 80px;
+  font-size: 90px;
   font-weight: bold;
-}
-
-.current-temperature-unit {
-  font-size: 28px;
-  position: relative;
-  top: -38px;
-}
-
-footer {
-  border-top: 1px solid #f9f7fe;
-  text-align: center;
-  padding-top: 15px;
-  color: rgba(39, 33, 66, 0.4);
-}
-
-footer p {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  font-style: normal;
-  color: rgba(39, 33, 66, 0.4);
-  line-height: 24px;
 }
