@@ -31,6 +31,7 @@ form {
 .search-input {
   background-color: #c2ecf9;
   border: none;
+  border-radius: 5px;
   color: #474f51;
   font-size: 16px;
   padding: 15px 35px;
