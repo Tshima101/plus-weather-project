@@ -123,6 +123,7 @@ h1 {
 }
 .weather-forecast {
   margin-top: 20px;
+  display: inline;
 }
 .weather-forecast-date {
   font-size: 16px;
