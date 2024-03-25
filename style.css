@@ -153,6 +153,15 @@ h1 {
 .weather-forecast-temperature {
   padding: 0 10px;
 }
+
+.weather-forecast-day:hover {
+  cursor: pointer;
+  background-color: #c2ecf9;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 7px;
+}
+
 footer {
   border-top: 1px solid #f9f7fe;
   text-align: center;
