@@ -157,9 +157,7 @@ h1 {
 .weather-forecast-day:hover {
   cursor: pointer;
   background-color: #c2ecf9;
-  border: none;
-  padding: 10px 15px;
-  border-radius: 7px;
+  border-radius: 5px;
 }
 
 footer {
